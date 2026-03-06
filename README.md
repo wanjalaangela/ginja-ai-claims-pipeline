@@ -74,8 +74,7 @@ The dashboard will open at http://localhost:8501
 ```
 ginja-ai-claims-pipeline/
 ├── README.md                      # This file
-├── SETUP.md                       # Detailed setup instructions
-├── TESTING.md                     # Unit testing guide
+
 ├── docs/
 │   ├── ARCHITECTURE.md            # System design and data flow
 │   ├── ASSUMPTIONS.md             # Design decisions and assumptions
@@ -96,11 +95,6 @@ ginja-ai-claims-pipeline/
 ├── data/
 │   ├── raw/                       # Input CSV files
 │   └── processed/                 # ML-ready datasets
-├── tests/
-│   ├── test_etl.py                # ETL unit tests
-│   ├── test_database.py           # Database unit tests
-│   ├── test_runner.py             # Test execution
-│   └── __init__.py
 ├── requirements.txt               # Python dependencies
 └── .env                          # Environment configuration (git ignored)
 ```
@@ -211,25 +205,7 @@ Comprehensive documentation is provided in the docs folder:
 
 - **ARCHITECTURE.md**: Detailed explanation of system design, data flow, and components
 - **ASSUMPTIONS.md**: Design decisions, business rules, and technical constraints
-- **METRICS.md**: Definitions of all key performance indicators and how they are calculated
-- **DATA_DICTIONARY.md**: Complete database schema with field descriptions and data types
-- **FEATURES.md**: Detailed explanation of each engineered feature and its purpose
 
-## Testing
-
-The project includes 31 unit tests covering:
-
-- Data transformation functions
-- Feature engineering logic
-- Database operations
-- Data quality validation
-- Data integrity checks
-
-Run tests with:
-
-```bash
-python tests/test_runner.py
-```
 
 ## Next Steps for Production
 
@@ -250,8 +226,3 @@ The feature engineering approach combines domain knowledge of healthcare claims 
 
 All components are designed to scale horizontally, with connection pooling preventing database bottlenecks and stateless processing enabling parallel execution.
 
-## License
-
-This project is submitted as a case study for the Ginja AI data engineering internship program.
-
-For detailed setup instructions, see SETUP.md. For information about running tests, see TESTING.md.
