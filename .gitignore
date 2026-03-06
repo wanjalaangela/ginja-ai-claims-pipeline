@@ -1,0 +1,62 @@
+# ===============================
+# Environment Variables
+# ===============================
+.env
+.env.*
+*.env
+
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+
+
+# Build folders
+build/
+dist/
+
+
+# IDE / Editor Files
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+
+# Testing / Coverage
+
+.coverage
+htmlcov/
+.pytest_cache/
+
+
+# Logs
+
+logs/
+*.log
+
+
+# Database Dumps
+
+*.sql
+*.dump
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
