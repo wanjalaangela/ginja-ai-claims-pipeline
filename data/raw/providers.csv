@@ -1,0 +1,11 @@
+provider_id,provider_name,location,provider_type,established_year
+P101,Kenyatta National Hospital,Nairobi,Hospital,1999
+P102,Nairobi Hospital,Nairobi,Hospital,1990
+P103,Aga Khan University Hospital,Nairobi,Hospital,1980
+P104,MP Shah Hospital,Nairobi,Hospital,1972
+P105,Coptic Hospital,Nairobi,Hospital,1960
+P106,Kisumu County Hospital,Kisumu,Hospital,2001
+P107,Nakuru Provincial Hospital,Nakuru,Hospital,1998
+P108,Mombasa County Hospital,Mombasa,Hospital,2000
+P109,Eldoret Medical Centre,Eldoret,Hospital,1995
+P110,Kericho Chest Hospital,Kericho,Hospital,1987
