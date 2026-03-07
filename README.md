@@ -34,7 +34,7 @@ Create and activate a virtual environment:
 
 ```bash
 python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate  
 ```
 
 Install dependencies:
@@ -96,7 +96,7 @@ ginja-ai-claims-pipeline/
 │   ├── raw/                       # Input CSV files
 │   └── processed/                 # ML-ready datasets
 ├── requirements.txt               # Python dependencies
-└── .env                          # Environment configuration (git ignored)
+└── .env                          # Environment configuration 
 ```
 
 ## What This Project Includes
@@ -140,6 +140,17 @@ Three Streamlit dashboards providing real-time data visualization:
 - ML Insights: Claim amount distributions, provider ratings, and fraud signals
 
 Dashboards include interactive Plotly charts that update in real-time from the database.
+
+## Dashboard Screenshots
+
+### Executive Summary Dashboard
+![Executive Dashboard](images/executive_summary.png)
+
+### Operations Metrics Dashboard
+![Operations Dashboard](images/operations.png)
+
+### ML Insights Dashboard
+![ML Insights Dashboard](images/ml_insights.png)
 
 ### Task 5: Feature Engineering
 
